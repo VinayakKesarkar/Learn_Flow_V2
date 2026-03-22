@@ -1,0 +1,19 @@
+packages:
+  "react-youtube": "YouTube iframe API wrapper for the video player"
+  "zustand": "State management for auth and video tracking"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility for merging tailwind classes without conflicts"
+  "framer-motion": "Animations and page transitions"
+
+images:
+  - path: "artifacts/lms/public/images/hero-bg.png"
+    description: "Abstract gradient mesh background in minimal professional deep blue and slate tones with soft lighting"
+    aspect_ratio: "16:9"
+  - path: "artifacts/lms/public/images/empty-state.png"
+    description: "Minimalist 3D illustration of an open book with floating geometric shapes, clean white background"
+    aspect_ratio: "1:1"
+
+notes:
+  - Expects API to be available at /api
+  - Assumes customFetch is configured to handle API requests, but we manually inject Bearer tokens via headers
+  - Uses Tailwind v4 native CSS variables for theming

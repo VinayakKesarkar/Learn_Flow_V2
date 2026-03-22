@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to Advanced Algorithms",
+    "slug": "intro-advanced-algorithms",
+    "description": "Learn the fundamentals of advanced algorithms and data structures.",
+    "isPublished": true,
+    "createdAt": "2026-03-21T16:06:14.152Z",
+    "updatedAt": "2026-03-21T16:06:14.152Z"
+  },
+  {
+    "id": 2,
+    "title": "React Masterclass",
+    "slug": "react-masterclass",
+    "description": "Build robust and scalable applications with modern React.",
+    "isPublished": true,
+    "createdAt": "2026-03-21T16:06:15.112Z",
+    "updatedAt": "2026-03-21T16:06:15.112Z"
+  }
+]
