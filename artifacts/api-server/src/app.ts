@@ -3,7 +3,7 @@ import cors from "cors";
 import cookieParser from "cookie-parser";
 import router from "./routes/index.js";
 
-const app: Express = express();
+const app = express();
 
 const corsOrigin = process.env.CORS_ORIGIN || true;
 
