@@ -8,7 +8,7 @@ import reviewsRouter from "./reviews.js";
 import certificatesRouter from "./certificates.js";
 import discussionRouter from "./discussion.js";
 
-const router: IRouter = Router();
+const router = Router();
 
 router.use(healthRouter);
 router.use("/auth", authRouter);

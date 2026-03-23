@@ -1,6 +1,6 @@
 import { Router, type IRouter } from "express";
 
-const router: IRouter = Router();
+const router = Router();
 
 router.get("/health", (_req, res) => {
   res.json({ status: "ok" });
